@@ -1,0 +1,92 @@
+body{
+    background-image: radial-gradient(circle
+    farthest-corner at 10% 20%, rgb(195, 251, 255)17.8%,
+    rgb(255, 178, 251)100.2%);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.card {
+    width: 275px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(255, 77, 77, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 4%;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin-top: 15px;
+  }
+  
+  .card:hover {
+    border-bottom: 5px solid rgb(255, 180, 255);
+    transform: scale(1.05);
+    transition: 2s ease-in-out;
+  }
+
+.container {
+  margin-top: 20px;
+}
+
+
+.card-header {
+  background-color: #ffb1f6;
+  color: white;
+}
+
+.skill {
+  margin-bottom: 15px;
+}
+
+.skill-name {
+  font-weight: bold;
+}
+
+.skill-level {
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.skill-percent {
+  height: 100%;
+  border-radius: 5px;
+  background-color: #ffb1f6;
+}
+
+.skill-percent-number {
+  margin-top: 5px;
+}
+
+.AboutMe {
+  margin-bottom: 15px;
+}
+
+.contact {
+  margin-top: 10px;
+}
+
+.list-unstyled {
+  padding: 0;
+  list-style: none;
+}
+
+.iconlink{
+  display: inline-block;
+  margin: 0 22px;
+  font-size: 34px;
+}
+
+.icongit{
+    display: inline-block;
+    margin: 0 22px;
+    font-size: 34px;
+  }
+
+.iconinstagram{
+    display: inline-block;
+    margin: 0 22px;
+    font-size: 34px;
+}

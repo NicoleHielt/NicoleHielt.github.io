@@ -1,0 +1,93 @@
+body{
+    background-image: radial-gradient(circle
+    farthest-corner at 10% 20%, rgb(195, 251, 255)17.8%,
+    rgb(232, 178, 255)100.2%);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  img {
+    height: 160px;
+    width: 320px;
+  }
+  .card{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: -1rem 0 4rem #000000;
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+    color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card:before{
+    width: 80%;
+    height: 50%;
+    display: block;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(1px);
+    position: absolute;
+    border-radius: 10px;
+}
+.card:after{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    border: 1px solid rgb(255, 255, 255/ 50%);
+    border-radius: 10px;
+}
+.card:not(:first-child)
+{
+    margin-left: -25px;
+}
+.card:hover
+{
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+}
+.card:hover ~ .card{
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+}
+.nature .card:nth-of-type(1){
+    background-size: cover;
+    background-position: center;
+}
+.nature .card:nth-of-type(2){
+    background-size: cover;
+    background-position: center;
+}
+.nature .card:nth-of-type(3){
+    background-size: cover;
+    background-position: center;
+}
+.nature .card:nth-of-type(4){
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    color: #858383;
+    font-size: 60px;
+    letter-spacing: 2px;
+ }
+
+button {
+    border-radius: 55px;
+    color: #000143;
+    background-color: #d2fffd;
+    border-color: #d2fffd;
+}

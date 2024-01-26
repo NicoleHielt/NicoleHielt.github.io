@@ -1,0 +1,42 @@
+body{
+    background-image: radial-gradient(circle
+    farthest-corner at 10% 20%, rgb(195, 251, 255)17.8%,
+    rgb(232, 178, 255)100.2%);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.nav {
+    background-color: rgb(230, 252, 255);
+    color: rgb(0, 0, 0);
+}
+
+.card {
+    width: 370px;
+    height: 390px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(255, 77, 77, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin-top: 55px;
+    margin-left: 39px;
+  }
+
+  .card:hover {
+    border-bottom: 5px solid rgb(255, 180, 255);
+    transform: scale(1.05);
+    transition: 2s ease-in-out;
+  }
+
+.card-header {
+  background-color: #ffb1f6;
+  color: white;
+}
+
+img{
+    width: 375px;
+    height: 270px;
+}
